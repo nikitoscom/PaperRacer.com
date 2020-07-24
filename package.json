@@ -1,0 +1,115 @@
+{
+  "name": "PaperRacer",
+  "version": "0.0.1",
+  "devDependencies": {
+    "ejs": "latest",
+    "glob": "4.3.2",
+    "grunt": "latest",
+    "grunt-bg-shell": "~2.3.1",
+    "grunt-cache-breaker": "latest",
+    "grunt-cli": "latest",
+    "grunt-closure-tools": "0.9.6",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "0.7.0",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-exec": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-jst-2": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-nodeunit": "0.4.1",
+    "grunt-contrib-rename": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-pngmin": "^1.0.2",
+    "grunt-reload": "~0.2.0",
+    "grunt-remove-logging": "latest",
+    "grunt-spritesmith": "2.20.0",
+    "grunt-string-replace": "latest",
+    "grunt-concat-css": "0.3.1",
+    "load-grunt-tasks": "2.0.0"
+  },
+  "spriteFileList": {
+    "bookContent1": [
+      "public/dev/images/book/sprite-parts/content/career/*.png",
+      "public/dev/images/book/sprite-parts/content/catalog/*.png",
+      "public/dev/images/book/sprite-parts/content/my-tracks/*.png"
+    ],
+    "bookContent2": [
+      "public/dev/images/book/sprite-parts/content/shop-stars/*.png",
+      "public/dev/images/book/sprite-parts/content/user-info/*.png",
+      "public/dev/images/book/sprite-parts/content/welcome-page/*.png",
+      "public/dev/images/book/sprite-parts/content/duel/*.png",
+      "public/dev/images/book/sprite-parts/content/daily-bonus/*.png",
+      "public/dev/images/book/sprite-parts/header/*.png"
+    ],
+    "bookContent3": [
+      "public/dev/images/book/sprite-parts/content/select-avatar/*.png",
+      "public/dev/images/book/sprite-parts/content/shop-intro/*.png",
+      "public/dev/images/book/sprite-parts/content/shop-lives/*.png"
+    ],
+    "bookIcons": [
+      "public/dev/images/book/sprite-parts/icon/*.png",
+      "public/dev/images/book/sprite-parts/social-buttons/*.png"
+    ],
+    "gameCommon": [
+      "public/dev/images/game/sprite-parts/common/*.png"
+    ],
+    "gamePlay1": [
+      "public/dev/images/game/sprite-parts/play/*.png",
+      "public/dev/images/game/sprite-parts/play/career/*.png"
+    ],
+    "gamePlay2": [
+      "public/dev/images/game/sprite-parts/play/catalog/*.png",
+      "public/dev/images/game/sprite-parts/play/fail/*.png",
+      "public/dev/images/game/sprite-parts/play/menu/*.png",
+      "public/dev/images/game/sprite-parts/play/progressbar/*.png"
+    ],
+    "gameCreate": [
+      "public/dev/images/game/sprite-parts/create/*.png",
+      "public/dev/images/game/sprite-parts/create/**/*.png"
+    ],
+    "heartAnimation": [
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-a.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-b.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-c.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-d.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-e.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-f.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-g.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-h.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-i.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-j.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-k.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-l.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-m.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-n.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-o.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-p.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-q.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-r.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-s.png",
+      "public/dev/images/game/sprite-parts/animation/heart/animation-heart-t.png"
+    ],
+    "boxAnimation": [
+      "public/dev/images/working/box-openining-1.png",
+      "public/dev/images/working/box-openining-2.png",
+      "public/dev/images/working/box-openining-3.png",
+      "public/dev/images/working/box-openining-4.png"
+    ],
+    "common": [
+      "public/dev/images/common/sprite-parts/**/*.png"
+    ],
+    "bookTitlesRU": [
+      "public/dev/images/book/texts/RU/**/*.png"
+    ],
+    "gameTitlesRU": [
+      "public/dev/images/game/texts/RU/**/*.png"
+    ],
+    "bookTitlesJP": [
+      "public/dev/images/book/texts/JP/**/*.png"
+    ],
+    "gameTitlesJP": [
+      "public/dev/images/game/texts/JP/**/*.png"
+    ]
+  }
+}
